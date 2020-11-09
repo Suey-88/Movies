@@ -1,4 +1,4 @@
-# phonebookapp
+# MoviesApp
 A small movies project to demonstrate .net core 3 with angular 8 and entity framework core
 ASP.NET Core 3.0 or later great features in Single Page Apps (SPAs) 
 
@@ -20,7 +20,7 @@ Follow these steps to get your development environment set up:
   2. Go to ClientApp folder in the .Web project and run Yarn to restore node modules
   Using vs code (Not tested)
   3. Update connection string in appsettings.json to your local sql server if necessary 
-	 ("PhoneBookDb": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PhoneBookDb;Integrated Security=True")
+	 ("PhoneBookDb": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MoviesDB;Integrated Security=True")
   Using Visual Studio (Use this option)
   5. Launch the project using:
 	 ```
