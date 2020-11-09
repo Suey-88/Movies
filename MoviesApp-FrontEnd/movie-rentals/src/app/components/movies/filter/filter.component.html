@@ -1,0 +1,29 @@
+<div class="container text-left">
+    <div class="card-header">
+        <strong>Filters</strong>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="search-by-year">
+                <input class="form-control" width = "10%" height="20px" type="text" name="search"
+                [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442; Search for a movie or genre">
+
+            </div>
+            <table class="table table-striped">
+             <thead>
+                 <tr>
+                    
+
+                 </tr>
+
+               
+            </thead>
+                <tbody>
+                    <tr *ngFor="let movie of movies| filter: searchText">
+                    </tr> 
+                </tbody>
+            </table>
+        </div>
+     
+</div>
+</div>
